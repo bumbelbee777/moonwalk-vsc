@@ -1,0 +1,29 @@
+{
+    "name": "moonwalk-vsc",
+    "displayName": "MoonWalk VSC",
+    "description": "Syntax highlighting for MoonWalk",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "moonwalk",
+            "aliases": ["MoonWalk", "moonwalk"],
+            "extensions": [".mw"],
+            "configuration": "./language-configuration.json",
+            "icon": {
+                "light": "light.png",
+                "dark": "dark.png"
+            }
+        }],
+        "grammars": [{
+            "language": "moonwalk",
+            "scopeName": "source.mw",
+            "path": "./syntaxes/moonwalk.tmLanguage.json"
+        }]
+    }
+}
