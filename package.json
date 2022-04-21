@@ -2,7 +2,7 @@
     "name": "moonwalk-vsc",
     "displayName": "MoonWalk VSC",
     "description": "Syntax highlighting for MoonWalk",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "MitkoYT",
     "engines": {
         "vscode": "^1.64.0"
