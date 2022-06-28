@@ -1,8 +1,8 @@
 {
     "name": "moonwalk-vsc",
-    "displayName": "MoonWalk VSC",
+    "displayName": "MoonWalk VScode extension",
     "description": "Syntax highlighting for MoonWalk",
-    "version": "0.0.2",
+    "version": "3",
     "publisher": "MitkoYT",
     "engines": {
         "vscode": "^1.64.0"
